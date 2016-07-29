@@ -1,0 +1,90 @@
+input.search {
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#searchBar {
+    padding: 7px;
+    background-color: #6F0145;
+    border-radius: 5px;
+}
+
+.searchButton {
+    display: inline-block;
+    background-color: #ffd2f9;
+    padding: 7px;
+    width: 60px;
+    text-align: center;
+    border-radius:4px;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    right:83px;
+    top: 1px;
+}
+
+.highlight {
+    /*display: inline-block;*/
+    background-color: #8b0157;
+    cursor: pointer;
+    /*padding: 7px;
+    width: 60px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    right:83px;
+    top: 1px;*/
+}
+
+.Appicon {
+    display: inline-block;
+    width: 25%;
+    color: #eadc77;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#Main-content-delete {
+    width:40%;
+    margin:6px auto;
+    align-content:center;
+    padding: 4px;
+    background-color: orange;
+    border-radius: 4px;
+}
+
+div#Main-content-delete p.header {
+    color: crimson;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left:20px;
+}
+
+#content-delete-data {
+    background-color: lemonchiffon;
+    height: 450px;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+#content-delete-data p#userData{
+    margin-left: 15px;
+}
+
+.delete-user {
+	background-color: #991e33;
+	margin-top:10px;
+	margin-left:40%;
+    width: 80px;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border-style: none;
+}
+

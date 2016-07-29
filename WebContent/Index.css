@@ -1,0 +1,195 @@
+#modal-login {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.95);
+    z-index: 2;
+    
+}
+
+#login-content {
+    background-color: floralwhite;
+    opacity: 1.2;
+    z-index: 3;
+    width:16%;
+    margin: auto;
+    position: absolute;
+    top:30%;
+    left: 40%;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#login-content #login-header {
+    padding-left: 35px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    text-decoration-style: solid;
+    border-bottom: 3px purple solid;
+}
+
+#login-content #input{
+    padding-top: 15px;
+    font-size: 15px;
+    text-decoration-style: solid;
+}
+
+#login-content #login-button{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    text-decoration-style: solid;
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input {
+    width:200px;
+    height: 29px;
+    border-radius: 5px;
+    border-color: violet;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#header {
+    background-color: #330033;
+    color: white;
+    width: 100%;
+    height: 40px;
+    /*position: fixed;
+    top: 0;
+    left: 0;*/
+}
+
+#header ul >li:first-child{
+    margin-left: 55%;
+}
+
+#header li,#header #header-para {
+    width:8%;
+    padding: 10px;
+    list-style: none;
+    font-weight: 600;
+    text-align: center;
+    float: left;
+}
+
+#header #header-para{
+    margin-left: 5%;
+}
+
+#header li:hover {
+    background-color: purple;
+}
+
+#center-content {
+    padding: 10%;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    background-color: #ffccff;
+    color: white;
+}
+
+#content-header {
+    height: 50px;
+    margin-top: -15px;
+    background-color:  #990073;
+    border-radius: 20px;
+}
+
+#content-header ul li,.inactive {
+    background-color: white;
+    height: 50px;
+    border: 0px;
+    list-style-type: none;
+    float:left;
+    text-align: center;
+    font-weight: 600;
+    width:19.2%;
+}
+
+#content-header ul li button {
+    background:  #990073;
+    border-style: none;
+    height: 100%;
+    float:left;   
+    outline-width: 0;
+    font-family: inherit;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    
+}
+
+#content-header ul li button:hover {
+    background-color: #b30086;
+    border-style: none;
+    height: 100%;
+    float:left;
+    font-family: inherit;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+}
+
+#content-header ul li button.active {
+    background-color: #330026;
+    color: white;
+}
+
+#main-content {
+    clear: left;
+    background-color: white;
+}
+
+#left-bar {
+    padding: 15px;
+    width: 15%;
+}
+
+#sub-content {
+    position: relative;
+}
+
+#about-courses,#about-authors,#about-review,#about-recruiter,#about-contact {
+    padding-left: 40px;
+    padding-right: 40px;
+    top: 0;
+    left: 0;
+}
+
+#sub-heading {
+    font-size: 20px;
+    color: orangered;
+    font-weight: 900;
+}
+
+#description {
+    font-size: 17px;
+    line-height: 1.5;
+    font-style: oblique;
+    color: darkblue;
+    text-align: justify;
+}
+
+.display {
+    display: block;
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,46 @@
+#button {
+    padding: 10px;
+}
+
+button {
+    background-color: blueviolet;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border-style: none;
+}
+
+#heading {
+    font-size: 20px;
+    color: orange;
+    font-weight: 900;
+}
+
+input {
+    width:200px;
+    border-radius: 5px;
+    border-color: violet;
+}
+
+textarea {
+    width:200px;
+    border-radius: 5px;
+    border-color: violet;
+    border-width: 2px;
+}
+
+td {
+  padding: 10px;
+}
+
+.error-highlight {
+    border-color:red;
+}
+
+#input-attribute {
+    font-size: 18px;
+    font-weight: 600;
+}
